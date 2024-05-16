@@ -14,6 +14,14 @@ sep = '======================================'
 
 while(True):
 
+    menu = """
+    ================== Menu ==================
+    [e] Extrato
+    [d] Deposito
+    [s] Saque
+    [q] Finalização
+    """
+    print(menu)
     tecla = input("Digite a operação desejada\r\n>>")
 
     print(f"\r\n{sep}")
